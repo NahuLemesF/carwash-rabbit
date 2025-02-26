@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: carwash
+  rabbitmq:
+    addresses: ${RABBIT_URI}
+
+rabbitmq:
+  queue: carwash_queue
